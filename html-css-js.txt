@@ -6,9 +6,10 @@ VS Code extensions need to be installed:
     - Prettier - Code formatter
 
 
-
-
-
-
-
+3. Project Starter Boilerplate
+! then press enter
+Fontawesome CDN: https://cdnjs.com/libraries/font-awesome
+Google fonts: https://fonts.google.com/
+Choose default is Roboto, regular 400 and bold 700
+* css selector applies to every thing
 
