@@ -1,0 +1,14 @@
+2. My Environment & Setup
+VS Code extensions need to be installed:
+    - live server
+    - Auto rename tag
+    - Backet Pari Colorizer
+    - Prettier - Code formatter
+
+
+
+
+
+
+
+
