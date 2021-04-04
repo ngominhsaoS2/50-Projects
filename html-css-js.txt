@@ -13,3 +13,11 @@ Google fonts: https://fonts.google.com/
 Choose default is Roboto, regular 400 and bold 700
 * css selector applies to every thing
 
+
+SECTION 29: Day 28 - Github Profiles
+90. Github Profile Card
+px: absolute value
+rem and em: relative values, base on font-size property
+    - em: bases on its default font-size property
+    - rem: bases on font-size property of html tag, which is 16px in default
+

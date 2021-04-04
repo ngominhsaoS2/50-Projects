@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2a2a72;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* left and right */
+    justify-content: center; /* top and bottom */
+    height: 100vh; /* 100% viewport height */
+    overflow: hidden; /* so there is no scroll bar */
+    margin: 0;
+}
+
+.user-form {
+    width: 100%;
+    max-width: 700px;
+}
+
+.user-form input {
+    width: 100%;
+    background-color: #432c7a;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+.user-form input::placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+
+.user-form input:focus {
+    outline: none;    
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    background-color: #432c7a;
+    border-radius: 25px;
+    padding: 60px;
+}
+
+main img {
+    border-radius: 50%;
+    border: solid 8px #242a66;
+}
+
+.card {
+    display: flex;
+}
+
+.user-info {
+    margin: 0 20px;
+}
+
+.user-info h2  {
+    margin: 0;
+}
+
+.user-info ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.user-info a.repo {
+    text-decoration: none;
+    background-color: #1d2966;
+    color: white;
+    font-size: 11px;
+    padding: 4px;
+    margin: 5px 5px 5px 0px;
+    border-radius: 6px;
+    display: inline-block;
+}
