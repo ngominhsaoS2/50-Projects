@@ -13,3 +13,10 @@ Google fonts: https://fonts.google.com/
 Choose default is Roboto, regular 400 and bold 700
 * css selector applies to every thing
 
+
+SECTION 11: Day 10 - Dad Jokes
+30. Jokes HTML & CSS
+line-height: 140px; /* increase the height of content */
+
+
+
