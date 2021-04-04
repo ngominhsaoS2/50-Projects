@@ -13,3 +13,11 @@ Google fonts: https://fonts.google.com/
 Choose default is Roboto, regular 400 and bold 700
 * css selector applies to every thing
 
+
+SECTION 50: Day 49 - Todo List
+158. Todo List UI
+.input:focus {
+    outline-color: rgb(179, 131, 226);
+}
+
+to change the color of the outline when the input is focused.
