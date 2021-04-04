@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rebeccapurple;
+    background-color: #5d388e;
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
@@ -17,37 +17,43 @@ body {
 }
 
 .btn {
-    background-color: white;
-    color: rebeccapurple;
-    font-family: inherit;
-    font-weight: bold;
-    padding: 1rem;
-    border-radius: 5px;
+    color: #5d388e;
+    padding: 1em;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .btn:focus {
-    outline: none;
+    outline: 0;
 }
 
 .btn:active {
     transform: scale(0.98);
 }
 
+
 .toasts {
     position: fixed;
-    bottom: 10px;
-    right: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    bottom: 0;
+    right: 0;
 }
 
 .toast {
-    background-color: #fff;
-    color: rebeccapurple;
+    background-color: white;
+    margin: 1em;
+    padding: 0.8em;
     border-radius: 5px;
-    padding: 1rem 2rem;
-    margin: 0.5rem;
+}
+
+.toast.success {
+    color: #198754;
+}
+
+.toast.danger {
+    color: #dc3545;
+}
+
+.toast.warning {
+    color: #ffc107;
 }
