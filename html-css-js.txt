@@ -13,3 +13,6 @@ Google fonts: https://fonts.google.com/
 Choose default is Roboto, regular 400 and bold 700
 * css selector applies to every thing
 
+
+SECTION 38: Day 37 - Pokedex
+123. Pokedex UI & Styling
